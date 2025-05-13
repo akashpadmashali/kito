@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Investa - Investment Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+      <div class="container px-0">
+        <div class="row gx-0 align-items-center" style="height: 45px">
+          <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+            <div class="d-flex flex-wrap">
+              <a href="#" class="text-muted me-4"
+                ><i class="fas fa-map-marker-alt text-primary me-2"></i
+                >Moodbidri, Karnataka</a
+              >
+              <a href="#" class="text-muted me-4"
+                ><i class="fas fa-phone-alt text-primary me-2"></i>+91 88618
+                12166</a
+              >
+              <a href="#" class="text-muted me-0"
+                ><i class="fas fa-envelope text-primary me-2"></i
+                >giridharkamath2000@gmail.com</a
+              >
+            </div>
+          </div>
+          <!-- <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                <a
+                    href="#"
+                    class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                    ><i class="fab fa-facebook-f text-white"></i
+                ></a>
+                <a
+                    href="#"
+                    class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                    ><i class="fab fa-twitter text-white"></i
+                ></a>
+                <a
+                    href="#"
+                    class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                    ><i class="fab fa-instagram text-white"></i
+                ></a>
+                <a
+                    href="#"
+                    class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                    ><i class="fab fa-linkedin-in text-white"></i
+                ></a>
+                </div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+      <div class="container px-0">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 px-3">
+          <!-- Brand Logo / Name -->
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <i class="fas fa-donate fa-2x text-primary me-2"></i>
+            <h2 class="m-0 text-primary fw-bold">KITO Investments</h2>
+          </a>
+
+          <!-- Toggle button for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible navbar links -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark fw-semibold"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <!-- <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h4 class="modal-title mb-0" id="exampleModalLabel">
+              Search by keyword
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body d-flex align-items-center">
+            <div class="input-group w-75 mx-auto d-flex">
+              <input
+                type="search"
+                class="form-control p-3"
+                placeholder="keywords"
+                aria-describedby="search-icon-1"
+              />
+              <span id="search-icon-1" class="input-group-text p-3"
+                ><i class="fa fa-search"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Modal Search End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel">
+      <div class="header-carousel-item">
+        <div class="header-carousel-item-img-1">
+          <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image" />
+        </div>
+        <div class="carousel-caption">
+          <div class="carousel-caption-inner text-start p-3">
+            <h1
+              class="display-1 text-capitalize text-white mb-4 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+              style="animation-delay: 1.3s"
+            >
+              Empowering Smart Investments in Karnataka
+            </h1>
+            <p
+              class="mb-5 fs-5 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+              style="animation-delay: 1.5s"
+            >
+              We provide expert financial planning and investment strategies to
+              help individuals and businesses achieve long-term growth and
+              security.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-carousel-item mx-auto">
+        <div class="header-carousel-item-img-2">
+          <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" />
+        </div>
+        <div class="carousel-caption">
+          <div class="carousel-caption-inner text-center p-3">
+            <h1
+              class="display-1 text-capitalize text-white mb-4 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+            >
+              Your Trusted Partner in Wealth Creation
+            </h1>
+            <p
+              class="mb-5 fs-5 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+            >
+              Our experienced advisors craft personalized investment portfolios
+              that align with your goals and risk profile — so your money works
+              harder for you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-carousel-item">
+        <div class="header-carousel-item-img-3">
+          <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image" />
+        </div>
+        <div class="carousel-caption">
+          <div class="carousel-caption-inner text-end p-3">
+            <h1
+              class="display-1 text-capitalize text-white mb-4 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+            >
+              Financial Guidance You Can Rely On
+            </h1>
+            <p
+              class="mb-5 fs-5 animate__animated fadeInUp"
+              data-animation="fadeInUp"
+            >
+              From retirement planning to portfolio diversification, we provide
+              trusted financial advisory services rooted in clarity,
+              transparency, and results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Us Start -->
+    <div id="about" class="container-fluid about bg-light py-5">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <!-- Image Section -->
+          <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="about-img position-relative">
+              <img
+                src="https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="img-fluid w-100 rounded-bottom"
+                alt="Investment Discussion"
+              />
+            </div>
+          </div>
+
+          <!-- Text Section -->
+          <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+            <h4 class="text-primary fw-bold mb-3">About Us</h4>
+            <h1 class="display-5 fw-bold mb-4">
+              Empowering Your Financial Future with Smart Investments
+            </h1>
+            <p class="mb-4 ps-2 border-start border-4 border-primary">
+              At KITO Investments, we specialize in delivering high-yield,
+              low-risk investment solutions tailored to your financial goals.
+              With a legacy of excellence, expert advisors, and global
+              partnerships, we help individuals and organizations grow their
+              wealth confidently and sustainably.
+            </p>
+
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <p>
+                  <i class="fas fa-check-circle text-primary me-2"></i>
+                  Diversified Portfolios
+                </p>
+                <p>
+                  <i class="fas fa-check-circle text-primary me-2"></i> Expert
+                  Financial Consulting
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p>
+                  <i class="fas fa-check-circle text-primary me-2"></i>
+                  Transparent Reporting
+                </p>
+                <p>
+                  <i class="fas fa-check-circle text-primary me-2"></i>
+                  Long-term Partnerships
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us End -->
+
+    <div id="services" class="container-fluid service py-5">
+      <div class="container py-5">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-primary">Why Choose Kito</h4>
+          <h1 class="display-4">What Makes Us Different</h1>
+        </div>
+        <div class="row g-4 justify-content-center text-center">
+          <div
+            class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="service-item bg-light rounded">
+              <div class="service-img">
+                <img
+                  src="img/investment.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt=""
+                />
+              </div>
+              <div class="service-content text-center p-4">
+                <div class="service-content-inner">
+                  <a href="#" class="h4 mb-4 d-inline-flex text-start">
+                    <i class="fas fa-layer-group fa-2x me-2"></i> Diversified
+                    Investments
+                  </a>
+                  <p class="mb-4">
+                    Your capital is allocated across stocks, gold, crypto, real
+                    estate, startups and more to maximize growth & minimize
+                    risk.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="service-item bg-light rounded">
+              <div class="service-img">
+                <img
+                  src="img/return.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt=""
+                />
+              </div>
+              <div class="service-content text-center p-4">
+                <div class="service-content-inner">
+                  <a href="#" class="h4 mb-4 d-inline-flex text-start">
+                    <i class="fas fa-chart-line fa-2x me-2"></i> 15% Minimum
+                    Return
+                  </a>
+                  <p class="mb-4">
+                    We aim to deliver a minimum of 15% annual return with
+                    professional and risk-adjusted portfolio management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item bg-light rounded">
+              <div class="service-img">
+                <img
+                  src="img/strategy.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt=""
+                />
+              </div>
+              <div class="service-content text-center p-4">
+                <div class="service-content-inner">
+                  <a href="#" class="h4 mb-4 d-inline-flex text-start">
+                    <i class="fas fa-user-tie fa-2x me-2"></i> Expert-Driven
+                    Strategy
+                  </a>
+                  <p class="mb-4">
+                    Our expert team continuously analyzes markets, startups, and
+                    economic trends to manage your investments wisely.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="service-item bg-light rounded">
+              <div class="service-img">
+                <img
+                  src="img/report.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt=""
+                />
+              </div>
+              <div class="service-content text-center p-4">
+                <div class="service-content-inner">
+                  <a href="#" class="h4 mb-4 d-inline-flex text-start">
+                    <i class="fas fa-file-alt fa-2x me-2"></i> Transparent
+                    Reporting
+                  </a>
+                  <p class="mb-4">
+                    You receive detailed quarterly reports with insights on
+                    growth, asset distribution, and market performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid project">
+      <div class="container">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-primary">Your Returns</h4>
+          <h1 class="display-4">What You Can Expect from Kito</h1>
+        </div>
+        <div
+          class="project-carousel owl-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-img">
+              <img
+                src="img/service-2.jpg"
+                class="img-fluid w-100 rounded"
+                alt="Investment Growth"
+              />
+            </div>
+            <div class="project-content bg-light rounded p-4">
+              <div class="project-content-inner">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-chart-line fa-4x text-primary"></i>
+                </div>
+                <p class="text-dark fs-5 mb-3">15%+ Annual Returns</p>
+                <p class="h4">
+                  Consistently grow your wealth with a minimum expected return
+                  of 15% annually.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-img">
+              <img
+                src="img/service-4.jpg"
+                class="img-fluid w-100 rounded"
+                alt="Startup Returns"
+              />
+            </div>
+            <div class="project-content bg-light rounded p-4">
+              <div class="project-content-inner">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-lightbulb fa-4x text-primary"></i>
+                </div>
+                <p class="text-dark fs-5 mb-3">High-Growth Startups</p>
+                <p class="h4">
+                  Early access to curated startup investments with long-term
+                  exponential potential.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item h-100">
+            <div class="project-img">
+              <img
+                src="img/service-3.jpg"
+                class="img-fluid w-100 rounded"
+                alt="Passive Income"
+              />
+            </div>
+            <div class="project-content bg-light rounded p-4">
+              <div class="project-content-inner">
+                <div class="project-icon mb-3">
+                  <i class="fas fa-coins fa-4x text-primary"></i>
+                </div>
+                <p class="text-dark fs-5 mb-3">Reliable Passive Income</p>
+                <p href="#" class="h4">
+                  Enjoy stress-free earnings from diversified portfolios managed
+                  by experts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid blog pb-5">
+      <div class="container pb-5">
+        <div
+          class="text-center mx-auto pb-4 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-primary">Our Strategy</h4>
+          <h1 class="display-4">How It Actually Works</h1>
+          <p class="mt-3 fs-5">
+            We guarantee a minimum annual return of <strong>15%</strong>. For
+            example, an investment of ₹5 crore in 2023 would have grown to ₹6.61
+            crore by today. A realistic return could be even higher — around
+            ₹7.15 crore (≈19.7% compounded). Your capital is safe, growing, and
+            professionally managed.
+          </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Blog Card 1 -->
+          <div
+            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="blog-item bg-light rounded p-4"
+              style="background-image: url(img/bg.png)"
+            >
+              <div class="mb-4">
+                <h4 class="text-primary mb-2">Investment</h4>
+              </div>
+              <div class="project-img">
+                <img
+                  src="img/blog-1.jpg"
+                  class="img-fluid w-100 rounded"
+                  alt="Image"
+                />
+              </div>
+              <div class="my-4">
+                <p class="h4">
+                  Revisiting Your Investment & Distribution Goals
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 2 -->
+          <div
+            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div
+              class="blog-item bg-light rounded p-4"
+              style="background-image: url(img/bg.png)"
+            >
+              <div class="mb-4">
+                <h4 class="text-primary mb-2">Business</h4>
+              </div>
+              <div class="project-img">
+                <img
+                  src="img/blog-2.jpg"
+                  class="img-fluid w-100 rounded"
+                  alt="Image"
+                />
+              </div>
+              <div class="my-4">
+                <p class="h4">
+                  Dimensional Fund Advisors Interview with Director
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 3 -->
+          <div
+            class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div
+              class="blog-item bg-light rounded p-4"
+              style="background-image: url(img/bg.png)"
+            >
+              <div class="mb-4">
+                <h4 class="text-primary mb-2">Consulting</h4>
+              </div>
+              <div class="project-img">
+                <img
+                  src="img/blog-3.jpg"
+                  class="img-fluid w-100 rounded"
+                  alt="Image"
+                />
+              </div>
+              <div class="my-4">
+                <p class="h4">
+                  Interested in Giving Back this year? Here are some tips
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid team pb-5">
+      <div class="container pb-5">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-primary">Our Team</h4>
+          <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="team-item rounded">
+              <div class="team-img">
+                <img
+                  src="img/team-1.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt="Image"
+                />
+                <div class="team-icon">
+                  <a
+                    class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                    href=""
+                    ><i class="fas fa-share-alt"></i
+                  ></a>
+                  <div class="team-icon-share">
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
+                      href=""
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content bg-dark text-center rounded-bottom p-4">
+                <div class="team-content-inner rounded-bottom">
+                  <h4 class="text-white">Mark D. Brock</h4>
+                  <p class="text-muted mb-0">CEO & Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="team-item rounded">
+              <div class="team-img">
+                <img
+                  src="img/team-2.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt="Image"
+                />
+                <div class="team-icon">
+                  <a
+                    class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                    href=""
+                    ><i class="fas fa-share-alt"></i
+                  ></a>
+                  <div class="team-icon-share">
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
+                      href=""
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content bg-dark text-center rounded-bottom p-4">
+                <div class="team-content-inner rounded-bottom">
+                  <h4 class="text-white">Mark D. Brock</h4>
+                  <p class="text-muted mb-0">CEO & Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="team-item rounded">
+              <div class="team-img">
+                <img
+                  src="img/team-3.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt="Image"
+                />
+                <div class="team-icon">
+                  <a
+                    class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                    href=""
+                    ><i class="fas fa-share-alt"></i
+                  ></a>
+                  <div class="team-icon-share">
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
+                      href=""
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content bg-dark text-center rounded-bottom p-4">
+                <div class="team-content-inner rounded-bottom">
+                  <h4 class="text-white">Mark D. Brock</h4>
+                  <p class="text-muted mb-0">CEO & Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="team-item rounded">
+              <div class="team-img">
+                <img
+                  src="img/team-4.jpg"
+                  class="img-fluid w-100 rounded-top"
+                  alt="Image"
+                />
+                <div class="team-icon">
+                  <a
+                    class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                    href=""
+                    ><i class="fas fa-share-alt"></i
+                  ></a>
+                  <div class="team-icon-share">
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
+                      href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      class="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
+                      href=""
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-content bg-dark text-center rounded-bottom p-4">
+                <div class="team-content-inner rounded-bottom">
+                  <h4 class="text-white">Mark D. Brock</h4>
+                  <p class="text-muted mb-0">CEO & Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid testimonial bg-light py-5">
+      <div class="container py-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="h-100 rounded">
+              <h4 class="text-primary">Our Feedbacks</h4>
+              <h1 class="display-4 mb-4">Clients are Talking</h1>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                atque soluta unde itaque. Consequatur quam odit blanditiis harum
+                veritatis porro.
+              </p>
+              <a
+                class="btn btn-primary rounded-pill text-white py-3 px-5"
+                href="#"
+                >Read All Reviews <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-xl-8">
+            <div
+              class="testimonial-carousel owl-carousel wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div
+                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="d-flex">
+                  <div>
+                    <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+                  </div>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
+                    quo recusandae nemo? Molestiae doloribus iure,
+                  </p>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <div class="my-auto text-end">
+                    <h5>Person Name</h5>
+                    <p class="mb-0">Profession</p>
+                  </div>
+                  <div class="bg-white rounded-circle ms-3">
+                    <img
+                      src="img/testimonial-1.jpg"
+                      class="rounded-circle p-2"
+                      style="
+                        width: 80px;
+                        height: 80px;
+                        border: 1px solid;
+                        border-color: var(--bs-primary);
+                      "
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div class="d-flex">
+                  <div>
+                    <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+                  </div>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
+                    quo recusandae nemo? Molestiae doloribus iure,
+                  </p>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <div class="my-auto text-end">
+                    <h5>Person Name</h5>
+                    <p class="mb-0">Profession</p>
+                  </div>
+                  <div class="bg-white rounded-circle ms-3">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      class="rounded-circle p-2"
+                      style="
+                        width: 80px;
+                        height: 80px;
+                        border: 1px solid;
+                        border-color: var(--bs-primary);
+                      "
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                data-wow-delay="0.7s"
+              >
+                <div class="d-flex">
+                  <div>
+                    <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+                  </div>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
+                    quo recusandae nemo? Molestiae doloribus iure,
+                  </p>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <div class="my-auto text-end">
+                    <h5>Person Name</h5>
+                    <p class="mb-0">Profession</p>
+                  </div>
+                  <div class="bg-white rounded-circle ms-3">
+                    <img
+                      src="img/testimonial-3.jpg"
+                      class="rounded-circle p-2"
+                      style="
+                        width: 80px;
+                        height: 80px;
+                        border: 1px solid;
+                        border-color: var(--bs-primary);
+                      "
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <!-- FAQ Start -->
+    <!-- <div class="container-fluid faq py-5">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="pb-5">
+              <h4 class="text-primary">FAQs</h4>
+              <h1 class="display-4">Get the Answers to Common Questions</h1>
+            </div>
+            <div class="accordion bg-light rounded p-4" id="accordionExample">
+              <div class="accordion-item border-0 mb-4">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button text-dark fs-5 fw-bold rounded-top"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseTOne"
+                  >
+                    What Does a Financial Advisor Do?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body my-2">
+                    <h5>Dolor sit amet consectetur adipisicing elit.</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ad nemo impedit, sapiente quis illo quia nulla atque
+                      maxime fuga minima ipsa quae cum consequatur, sit,
+                      delectus exercitationem odit officiis maiores! Neque,
+                      quidem corrupti modi architecto eos saepe incidunt
+                      dignissimos rerum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-4">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What industries do you specialize in?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body my-2">
+                    <h5>Dolor sit amet consectetur adipisicing elit.</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ad nemo impedit, sapiente quis illo quia nulla atque
+                      maxime fuga minima ipsa quae cum consequatur, sit,
+                      delectus exercitationem odit officiis maiores! Neque,
+                      quidem corrupti modi architecto eos saepe incidunt
+                      dignissimos rerum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-4">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Can you guarantee for growth?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body my-2">
+                    <h5>Dolor sit amet consectetur adipisicing elit.</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ad nemo impedit, sapiente quis illo quia nulla atque
+                      maxime fuga minima ipsa quae cum consequatur, sit,
+                      delectus exercitationem odit officiis maiores! Neque,
+                      quidem corrupti modi architecto eos saepe incidunt
+                      dignissimos rerum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-0">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What makes your business plans so special?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body my-2">
+                    <h5>Dolor sit amet consectetur adipisicing elit.</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ad nemo impedit, sapiente quis illo quia nulla atque
+                      maxime fuga minima ipsa quae cum consequatur, sit,
+                      delectus exercitationem odit officiis maiores! Neque,
+                      quidem corrupti modi architecto eos saepe incidunt
+                      dignissimos rerum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+            <div class="faq-img RotateMoveRight rounded">
+              <img
+                src="img/faq-img.jpg"
+                class="img-fluid rounded w-100"
+                alt="Image"
+              />
+              <a
+                class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5"
+                href="#"
+                >Read More Q & A <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- FAQ End -->
+
+    <!-- Contact Start -->
+    <div id="contact" class="container-fluid contact bg-light py-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="contact-item">
+              <div class="pb-5">
+                <h4 class="text-primary">Contact Us</h4>
+                <h1 class="display-4 mb-4">Get In Touch With Us</h1>
+                <p class="mb-0">
+                  We'd love to hear from you. Whether you have a question about
+                  investment, features, pricing, or anything else — our team is
+                  ready to answer all your questions.
+                </p>
+              </div>
+              <div class="d-flex align-items-center mb-4">
+                <div class="bg-primary btn-lg-square rounded-circle p-4">
+                  <i class="fa fa-home text-white"></i>
+                </div>
+                <div class="ms-4">
+                  <h4>Address</h4>
+                  <p class="mb-0">Moodbidri, Karnataka, India</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-4">
+                <div class="bg-primary btn-lg-square rounded-circle p-2">
+                  <i class="fa fa-phone-alt text-white"></i>
+                </div>
+                <div class="ms-4">
+                  <h4>Mobile</h4>
+                  <p class="mb-0">+91 88618 12166</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-4">
+                <div class="bg-primary btn-lg-square rounded-circle p-2">
+                  <i class="fa fa-envelope-open text-white"></i>
+                </div>
+                <div class="ms-4">
+                  <h4>Email</h4>
+                  <p class="mb-0">giridharkamath2000@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+            <form action="https://formspree.io/f/mdkgpzgz" method="POST">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      name="message"
+                      class="form-control"
+                      placeholder="Your Message"
+                      id="message"
+                      style="height: 160px"
+                      required
+                    ></textarea>
+                    <label for="message">Your Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary w-100 py-3">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="rounded h-100">
+              <iframe
+                class="rounded-top w-100"
+                style="height: 500px; margin-bottom: -6px"
+                src="https://www.google.com/maps?q=Moodbidri,+Karnataka,+India&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <!-- <div
+                class="d-flex align-items-center justify-content-center bg-primary rounded-bottom p-4"
+              >
+                <div class="d-flex">
+                  <a
+                    class="btn btn-dark btn-lg-square rounded-circle me-2"
+                    href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
+                    href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
+                    href="#"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
+                    href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+      <div class="container text-center">
+        <h5 class="mb-3">KITO Investments</h5>
+        <p class="mb-2">Moodbidri, Karnataka, India</p>
+        <p class="mb-2">
+          Email: giridharkamath2000@gmail.com | Phone: +91 88618 12166
+        </p>
+        <!-- <div class="d-flex justify-content-center mt-3">
+          <a class="btn btn-outline-light btn-sm rounded-circle me-2" href="#"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="btn btn-outline-light btn-sm rounded-circle me-2" href="#"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="btn btn-outline-light btn-sm rounded-circle me-2" href="#"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="btn btn-outline-light btn-sm rounded-circle" href="#"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div> -->
+        <p class="mt-3 mb-0 small">
+          &copy; 2025 KITO Investments. All rights reserved.
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
