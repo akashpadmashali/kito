@@ -267,11 +267,10 @@
       <div class="row g-5 align-items-center">
         <!-- Image Section -->
         <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-          <div class="about-img text-center">
-            <img src="./img/about.jpeg" class="img-fluid rounded mb-3" style="max-width: 80%; height: auto;"
-              alt="Founder Image" />
-            <h5 class="mb-0">Giridhar Kamath</h5>
-            <p class="text-muted">Founder & Investment Strategist</p>
+          <div class="about-img position-relative">
+            <img
+              src="https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA=="
+              class="img-fluid w-100 rounded-bottom" alt="Investment Discussion" />
           </div>
         </div>
 
@@ -1458,41 +1457,69 @@
       <div class="container py-5">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-            <div class="contact-item">
-              <div class="pb-5">
-                <h4 class="text-primary">Contact Us</h4>
-                <h1 class="display-4 mb-4">Get In Touch With Us</h1>
-                <p class="mb-0">
-                  We'd love to hear from you. Whether you have a question about
-                  investment, features, pricing, or anything else — our team is
-                  ready to answer all your questions.
-                </p>
-              </div>
-              <div class="d-flex align-items-center mb-4">
-                <div class="bg-primary btn-lg-square rounded-circle p-4">
-                  <i class="fa fa-home text-white"></i>
+            <div class="contact-info mb-5">
+              <h4 class="text-primary">Contact Us</h4>
+              <h1 class="display-4 mb-4">Get In Touch With Us</h1>
+              <p class="mb-4">
+                We'd love to hear from you. Whether you have a question about investment, features, pricing, or anything
+                else — our team is ready to answer all your questions.
+              </p>
+
+              <div class="founder-details d-flex align-items-center mt-5 mb-5">
+                <div class="me-4">
+                  <img src="./img/about.jpeg" class="img-fluid rounded-circle"
+                    style="width: 150px; height: 150px; object-fit: cover;" alt="Founder Image">
                 </div>
-                <div class="ms-4">
-                  <h4>Address</h4>
-                  <p class="mb-0">Moodbidri, Karnataka, India</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-center mb-4">
-                <div class="bg-primary btn-lg-square rounded-circle p-2">
-                  <i class="fa fa-phone-alt text-white"></i>
-                </div>
-                <div class="ms-4">
-                  <h4>Mobile</h4>
-                  <p class="mb-0">+91 88618 12166</p>
+                <div>
+                  <h5 class="mb-1">Giridhar Kamath</h5>
+                  <p class="text-muted mb-1">Founder & Investment Strategist</p>
+                  <!-- <div class="d-flex mt-2">
+                    <a class="btn btn-sm btn-outline-primary btn-square me-2" href="#"><i
+                        class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm btn-outline-primary btn-square me-2" href="#"><i
+                        class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm btn-outline-primary btn-square" href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div> -->
                 </div>
               </div>
-              <div class="d-flex align-items-center mb-4">
-                <div class="bg-primary btn-lg-square rounded-circle p-2">
-                  <i class="fa fa-envelope-open text-white"></i>
-                </div>
-                <div class="ms-4">
-                  <h4>Email</h4>
-                  <p class="mb-0">investmentkito@gmail.com</p>
+
+              <div class="contact-details">
+                <div class="row g-4">
+                  <!-- Address -->
+                  <div class="col-md-4 col-sm-6">
+                    <div class="d-flex flex-column align-items-center text-center p-3 bg-light rounded h-100">
+                      <div class="bg-primary rounded-circle p-3 mb-3 d-flex align-items-center justify-content-center"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-home text-white fs-5"></i>
+                      </div>
+                      <h5 class="mb-2">Address</h5>
+                      <p class="text-muted mb-0">Moodbidri, Karnataka, India</p>
+                    </div>
+                  </div>
+
+                  <!-- Mobile -->
+                  <div class="col-md-4 col-sm-6">
+                    <div class="d-flex flex-column align-items-center text-center p-3 bg-light rounded h-100">
+                      <div class="bg-primary rounded-circle p-3 mb-3 d-flex align-items-center justify-content-center"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white fs-5"></i>
+                      </div>
+                      <h5 class="mb-2">Mobile</h5>
+                      <p class="text-muted mb-0">+91 88618 12166</p>
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="col-md-4 col-sm-6">
+                    <div class="d-flex flex-column align-items-center text-center p-3 bg-light rounded h-100">
+                      <div class="bg-primary rounded-circle p-3 mb-3 d-flex align-items-center justify-content-center"
+                        style="width: 60px; height: 60px;">
+                        <i class="fa fa-envelope-open text-white fs-5"></i>
+                      </div>
+                      <h5 class="mb-2">Email</h5>
+                      <p class="text-muted mb-0">investmentkito@gmail.com</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1530,37 +1557,11 @@
             </form>
           </div>
 
-          <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-12 wow fadeInUp mt-5" data-wow-delay="0.5s">
             <div class="rounded h-100">
-              <iframe class="rounded-top w-100" style="height: 500px; margin-bottom: -6px"
-                src="https://www.google.com/maps?q=Moodbidri,+Karnataka,+India&output=embed" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <!-- <div
-                class="d-flex align-items-center justify-content-center bg-primary rounded-bottom p-4"
-              >
-                <div class="d-flex">
-                  <a
-                    class="btn btn-dark btn-lg-square rounded-circle me-2"
-                    href="#"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
-                    href="#"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
-                    href="#"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a
-                    class="btn btn-dark btn-lg-square rounded-circle mx-2"
-                    href="#"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div> -->
+              <iframe class="rounded w-100" style="height: 450px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.362208006093!2d74.9602058742512!3d12.890697516086708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba365112f43cf83%3A0x6b8d4f4f3c0b0b0b!2sMoodbidri%2C%20Karnataka%20574227%2C%20India!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
